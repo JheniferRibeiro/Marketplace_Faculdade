@@ -39,10 +39,14 @@ nav {
     transition: 0.5s linear;
 }
 
+.offersoftheday{
+    text-wrap: nowrap;
+}
 
 .itens-nav {
     display: flex;
-    gap: 2em;
+    gap: 1rem;
+
 }
 
 .itens-nav a {
@@ -78,9 +82,9 @@ nav {
     color: var(--main-color);
 }
 
-.logo {
-    width: 60px;
-    height: 50px;
+
+.logo{
+    width: 200px; 
 }
 
 .search-box {
@@ -159,8 +163,15 @@ nav {
 }
 
 .heading h2 {
-    font-size: 1.rem;
+    font-size: 1.5rem;
     text-transform: uppercase;
+}
+
+
+.headingP h2 {
+    font-size: 1.5rem;
+    margin-top: -3.5rem;
+    text-align: center;
 }
 
 .shadow {
@@ -182,7 +193,7 @@ nav {
 .products-container .box {
     flex: 0 0 calc(30% - 10px);
     position: relative;
-    padding: 10px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -276,9 +287,6 @@ nav {
     transition: 0.2s all linear;
 }
 
-.heading h2 {
-    font-size: 2rem;
-}
 
 footer {
     display: grid;
