@@ -129,6 +129,123 @@ nav {
     padding: 3rem;
 }
 
+.home_admin {
+    width: 100%;
+    min-height: 10px;
+    background: #ffc53b;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    padding: 3rem;
+}
+
+.main_admin {
+    width: 100%;
+    min-height: 10px;
+    height: 80vh;
+    background-color: #e0e0e0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(10rem,auto));
+    gap: 1.5rem;
+    padding: 3rem;
+    justify-content: center;
+}
+.div_seller {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form_seller {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+}
+
+.form_seller input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form_seller button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form_seller button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para a tabela de usuários */
+.tabela_usuarios {
+   padding-top: 30px;
+    border-collapse: collapse;
+    width: 80%; /* Ajuste o tamanho conforme necessário */
+    margin-top: 20px;
+}
+
+/* Estilo para as células do cabeçalho da tabela */
+.tabela_usuarios th {
+    background-color: #f0f0f0; /* Cor mais neutra */
+    color: #333; /* Cor do texto mais escura */
+    min-width: 100px;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Linha divisória entre as células */
+}
+
+/* Estilo alternado para as linhas da tabela */
+.tabela_usuarios tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor mais clara para linhas alternadas */
+}
+
+/* Estilo para as células do corpo da tabela */
+.tabela_usuarios td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Linha divisória entre as células */
+}
+
+/* Estilo para o texto quando o mouse passa sobre uma linha */
+.tabela_usuarios tbody tr:hover {
+    background-color: #ececec; /* Cor mais clara ao passar o mouse */
+}
+
+.tabela_usuarios button {
+    padding: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: white; /* Adicionado para garantir visibilidade do texto */
+}
+
+/* Estilo para o botão de editar (amarelo) */
+.tabela_usuarios button.editar {
+    background-color: #ffc107;
+    color: black;
+    margin-right: 5px; /* Adicione margem à direita para espaçamento entre os botões */
+}
+
+/* Estilo para o botão de excluir (vermelho) */
+.tabela_usuarios button.excluir {
+    background-color: #dc3545;
+}
+
 .home-text {
     height: 530px; 
     display: flex;
